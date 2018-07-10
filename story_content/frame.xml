@@ -1,0 +1,2123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns10111001101" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
+  <layouts>
+    <layout name="npnxnanbsnfns10111001101" font="Open Sans" controllayout="npnxnanbsnfns10111001101" colorscheme="pxabnsnfns10111001101" string_table="pxabnsnfns10111001101" />
+    <layout name="pxabnsnfns10111001101" font="Open Sans" controllayout="pxabnsnfns10111001101" colorscheme="pxabnsnfns10111001101" string_table="pxabnsnfns10111001101" />
+    <layout name="npxnabnsnfns10111001101" font="Open Sans" controllayout="npxnabnsnfns10111001101" colorscheme="pxabnsnfns10111001101" string_table="pxabnsnfns10111001101" />
+    <layout name="npnxnanbnsnfns10111001101" font="Open Sans" controllayout="npnxnanbnsnfns10111001101" colorscheme="pxabnsnfns10111001101" string_table="pxabnsnfns10111001101" />
+    <layout name="pxabnsnfns10111001100" font="Open Sans" controllayout="pxabnsnfns10111001100" colorscheme="pxabnsnfns10111001101" string_table="pxabnsnfns10111001101" />
+    <layout name="npnxnanbsnfns00001001101" font="Open Sans" controllayout="npnxnanbsnfns00001001101" colorscheme="pxabnsnfns10111001101" string_table="pxabnsnfns10111001101" />
+    <layout name="pxabnsnfns00001001101" font="Open Sans" controllayout="pxabnsnfns00001001101" colorscheme="pxabnsnfns10111001101" string_table="pxabnsnfns10111001101" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="true">
+            <options>
+              <option name="title_text" value="Module 1 - Is Coaching For Me?" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="false">
+            <options />
+          </option>
+          <option name="sidebar_enabled" value="true">
+            <options>
+              <option name="sidebarpos" value="left" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="resources" value="false" group="linkright" />
+              <listitem name="outline" value="true" group="sidebar" />
+              <listitem name="glossary" value="false" group="sidebar" />
+              <listitem name="transcript" value="true" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="false" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="false" />
+          <option name="enableresultsicons" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="true" />
+          <option name="seekbar" value="true">
+            <options>
+              <option name="readonly" value="false" />
+            </options>
+          </option>
+          <option name="search" value="false" />
+          <option name="pauseplay" value="true" />
+          <option name="replay" value="true" />
+          <option name="closed_captions" value="true">
+            <options>
+              <option name="font" value="Open Sans" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns10111001101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns10111001101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns10111001101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns10111001101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns10111001100">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+    <control_layout name="npnxnanbsnfns00001001101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns00001001101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="pxabnsnfns10111001101">
+      <color_group name="infopanel">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C2280" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="title_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanelpopup">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C2280" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bio_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00D7FF" alpha="100" stop="0" />
+                <color rgb="0x00ABFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+                <color rgb="0xFCCC2A" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xEAEAEA" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF3F3F3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF7F7F7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+                <color rgb="0xAFAFAF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+                <color rgb="0xF4F4F4" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDFDFDF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE6E6E6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x909090" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC0E2F1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF7F7F7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xF3F3F3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDBDBDB" alpha="100" stop="0" />
+                <color rgb="0xC3C3C3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+                <color rgb="0xAFAFAF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+                <color rgb="0xF4F4F4" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCFCFCF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x33CC00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6BF8FF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF3F3F3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0xDEDEDE" alpha="100" stop="0" />
+                <color rgb="0xE8E8E8" alpha="100" stop="128" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF6F6F6" alpha="100" stop="0" />
+                <color rgb="0xF3F3F3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC4C4C4" alpha="100" stop="0" />
+                <color rgb="0xB2B2B2" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCBCBCB" alpha="100" stop="0" />
+                <color rgb="0xBABABA" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9D9D9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA7A7A7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCFCFCF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDFDFDF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xADADAD" alpha="100" stop="0" />
+                <color rgb="0xFAFAFA" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8A8A8A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6BF8FF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8A8A8A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+                <color rgb="0xEEEEEE" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE7E7E7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF3F3F3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE1E1E1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC6C6C6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF9F9F9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE1E1E1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE0E0E0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC0E2F1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE6E6E6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2E2E2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2E2E2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE7E7E7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA5A5A5" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD4D4D4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC8C8C8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBCBCBC" alpha="100" stop="0" />
+                <color rgb="0xBCBCBC" alpha="100" stop="128" />
+                <color rgb="0xC3C3C3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="pxabnsnfns10111001101">
+      <string id="check_include">Check to include</string>
+      <string id="clear">Clear and return to Menu</string>
+      <string id="close">Close</string>
+      <string id="acc_closed_captions">Closed captions. Press the spacebar to toggle captions on and off.</string>
+      <string id="continue">Continue</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="exit">Exit</string>
+      <string id="filter">Filter</string>
+      <string id="finish">FINISH</string>
+      <string id="acc_finish">finish</string>
+      <string id="definition">Definition</string>
+      <string id="acc_definition">definition</string>
+      <string id="glossary">Glossary</string>
+      <string id="terms">Terms</string>
+      <string id="outline">Menu</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="next">NEXT</string>
+      <string id="acc_next">next</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="transcript">Notes</string>
+      <string id="bio">Bio</string>
+      <string id="more_info">More info</string>
+      <string id="closed_captions">Captions</string>
+      <string id="acc_pause">pause</string>
+      <string id="acc_play">play</string>
+      <string id="send_an_email">Send an email</string>
+      <string id="prev">PREV</string>
+      <string id="acc_previous">previous</string>
+      <string id="question_list">Question List</string>
+      <string id="acc_replay">replay</string>
+      <string id="resources">Resources</string>
+      <string id="acc_resources">resources</string>
+      <string id="restart">Restart</string>
+      <string id="resume">Resume</string>
+      <string id="search">Search...</string>
+      <string id="acc_search_input">search</string>
+      <string id="search_in">Search in:</string>
+      <string id="search_results">Search Results</string>
+      <string id="acc_skipnavigation">Skip Navigation. Hit enter to return to the slide.</string>
+      <string id="slide_text_chk">Slide Text</string>
+      <string id="submitall">SUBMIT ALL</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="submit">SUBMIT</string>
+      <string id="acc_submit">submit</string>
+      <string id="acc_volume">volume</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Open Sans">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+    <font name="Calibri">
+      <files>
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+    <font name="Wingdings">
+      <files>
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+    <font name="Symbol">
+      <files>
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+    <font name="Arial">
+      <files>
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.6rijn1lxOz3" displaytext="Is Coaching For Me" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6rijn1lxOz3.6ajkQWvgNh6" displaytext="Is Coaching For Me?:  An Introduction to Step UP" expand="false" type="slide" />
+            <slidelink slideid="_player.6rijn1lxOz3.5phxxuPcltX" displaytext="Step UP Training " expand="false" type="slide" />
+            <slidelink slideid="_player.6rijn1lxOz3.5gOihJ8O1cf" displaytext="Is Coaching For Me?:  An Introduction to Step UP" expand="false" type="slide" />
+            <slidelink slideid="_player.6rijn1lxOz3.5VGhJhHgAwF" displaytext="An Overview of Step UP" expand="false" type="slide" />
+            <slidelink slideid="_player.6rijn1lxOz3.6iEJGZvsLmp" displaytext="Step Up Coach: What Does It Take?" expand="false" type="slide" />
+            <slidelink slideid="_player.6rijn1lxOz3.6c8DyZ129co" displaytext="Step Up Program" expand="false" type="slide" />
+            <slidelink slideid="_player.6rijn1lxOz3.69EpEOvjX4M" displaytext="Impact of Step UP" expand="false" type="slide" />
+            <slidelink slideid="_player.6rijn1lxOz3.5ynLqTKH8nM" displaytext="Coaching Is NOT…" expand="false" type="slide" />
+            <slidelink slideid="_player.6rijn1lxOz3.6DIgTNMa0IL" displaytext="What, Then, Is Coaching?" expand="false" type="slide">
+              <links>
+                <slidelink slideid="_player.6rijn1lxOz3.65cDKtkdZ8R" displaytext="What, Then, Is Coaching?" expand="false" type="slide" />
+              </links>
+            </slidelink>
+            <slidelink slideid="_player.6rijn1lxOz3.6I1HiB3jv4W" displaytext="What do you think you need to be a Coach? Select all that apply." expand="false" type="slide" />
+            <slidelink slideid="_player.6rijn1lxOz3.5qdifmOg5Wa" displaytext="Coaches' Responsibilities" expand="false" type="slide" />
+            <slidelink slideid="_player.6rijn1lxOz3.6Xqb0dbaihi" displaytext="You Support students;Step Up supports you" expand="false" type="slide" />
+            <slidelink slideid="_player.6rijn1lxOz3.5oUhz7lIFXF" displaytext="What can an HCC student expect from the Step UP program?" expand="false" type="slide" />
+            <slidelink slideid="_player.6rijn1lxOz3.5koUGPoK27f" displaytext="Students can expect…" expand="false" type="slide" />
+            <slidelink slideid="_player.6rijn1lxOz3.65RlqDAh79f" displaytext="Do You Have What It Takes?" expand="false" type="slide" />
+            <slidelink slideid="_player.6rijn1lxOz3.5njs0x3Iiqd" displaytext="Become a Step UP Coach" expand="false" type="slide" />
+            <slidelink slideid="_player.6rijn1lxOz3.5vvMxLtSGY3" displaytext="Are You Ready?" expand="false" type="slide" />
+          </links>
+        </slidelink>
+      </links>
+    </outline>
+  </nav_data>
+  <resource_data description="" />
+  <transcript_data>
+    <slidetranscripts>
+      <slidetranscript slideid="6rijn1lxOz3.6ajkQWvgNh6" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="0">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="So, you are thinking about becoming a Step UP coach, and you are wondering whether coaching is for you. Perhaps you are not even clear about exactly what Step UP is and what your responsibilities would be if you decide to become a coach.   This short introduction may help answer your questions and provide a quick overview of Step UP."&gt;
+        &lt;Style FontFamily="Calibri" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6rijn1lxOz3.5gOihJ8O1cf" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="0">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="So, you are thinking about becoming a Step UP coach, and you are wondering whether coaching is for you. Perhaps you are not even clear about exactly what Step UP is and what your responsibilities would be if you decide to become a coach.   This short introduction may help answer your questions and provide a quick overview of Step UP."&gt;
+        &lt;Style FontFamily="Calibri" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6rijn1lxOz3.5VGhJhHgAwF" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="1">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="36" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" BulletChar="¡" BulletFont="Wingdings"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Step UP is a program that pairs a student with a faculty, administrator or staff coach&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="36" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" BulletChar="¡" BulletFont="Wingdings"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="They meet once a week for about an hour; there is no agenda.  &amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="36" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" BulletChar="¡" BulletFont="Wingdings"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="The student leads the conversation and is free to talk about anything. &amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="36" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0.1" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" BulletChar="¡" BulletFont="Wingdings"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="The coach is there to support and encourage the student."&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6rijn1lxOz3.6iEJGZvsLmp" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="36" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" BulletChar="ü" BulletFont="Wingdings"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="The program is entirely volunteer. All of the coaches and all of the students volunteer. &amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="36" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" BulletChar="ü" BulletFont="Wingdings"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="You have what it takes to be a step up coach. Just participating in this brief module shows you have interest in supporting our students. &amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="36" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" BulletChar="ü" BulletFont="Wingdings"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="It is the relationship between the coach and student that makes a successful coaching experience. &amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="36" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" BulletChar="ü" BulletFont="Wingdings"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Likely you already possess 99% of what you need to be a good coach – by simply caring and listening.&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="36" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" BulletChar="ü" BulletFont="Wingdings"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text=" You can learn the other 1% in these modules and in other Step Up Training."&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6rijn1lxOz3.6c8DyZ129co" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="3">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Span Text="The Step UP program is voluntary. Both coaches and students are volunteering to participate in the program. Without coaches the program  simply would not exist. That is why your participation is so important.  " /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6rijn1lxOz3.69EpEOvjX4M" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="4">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Color="#000000" BulletChar="·" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Click on each step to see the Impact of Step UP at HCC!&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Color="#000000" BulletChar="·" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="117" TrailingMargin="0" FirstLineMargin="72" Justification="Left" CustomTabStops="" ListLevel="2" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" Color="#000000" BulletChar="·" BulletFont="Symbol" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Step UP is far-reaching; coaches represent all areas of the College.  It is truly a cross-constituency program.&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="117" TrailingMargin="0" FirstLineMargin="72" Justification="Left" CustomTabStops="" ListLevel="2" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" Color="#000000" BulletChar="·" BulletFont="Symbol" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="117" TrailingMargin="0" FirstLineMargin="72" Justification="Left" CustomTabStops="" ListLevel="2" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" Color="#000000" BulletChar="·" BulletFont="Symbol" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Over 1200 Students have participated in Step UP. More than 300 administrators, staff and faculty, full-time and part-time, have become Step UP coaches. &amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="117" TrailingMargin="0" FirstLineMargin="72" Justification="Left" CustomTabStops="" ListLevel="2" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" Color="#000000" BulletChar="·" BulletFont="Symbol" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="117" TrailingMargin="0" FirstLineMargin="72" Justification="Left" CustomTabStops="" ListLevel="2" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" Color="#000000" BulletChar="·" BulletFont="Symbol" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Step UP serves a wide range of students, full-time and part-time from a variety of disciplines. &amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="117" TrailingMargin="0" FirstLineMargin="72" Justification="Left" CustomTabStops="" ListLevel="2" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" Color="#000000" BulletChar="·" BulletFont="Symbol" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="117" TrailingMargin="0" FirstLineMargin="72" Justification="Left" CustomTabStops="" ListLevel="2" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" Color="#000000" BulletChar="·" BulletFont="Symbol" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Step UP students are more likely to re-enroll in classes at HCC than students who are not in the program. &amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="117" TrailingMargin="0" FirstLineMargin="72" Justification="Left" CustomTabStops="" ListLevel="2" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" Color="#000000" BulletChar="·" BulletFont="Symbol" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="117" TrailingMargin="0" FirstLineMargin="72" Justification="Left" CustomTabStops="" ListLevel="2" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" Color="#000000" BulletChar="·" BulletFont="Symbol" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="The results of Step UP have been impressive. Data shows that on average, Step UP students have a higher GPA than students who do not participate in the program. &amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="117" TrailingMargin="0" FirstLineMargin="72" Justification="Left" CustomTabStops="" ListLevel="2" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" Color="#000000" BulletChar="·" BulletFont="Symbol" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="117" TrailingMargin="0" FirstLineMargin="72" Justification="Left" CustomTabStops="" ListLevel="2" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" Color="#000000" BulletChar="·" BulletFont="Symbol" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="117" TrailingMargin="0" FirstLineMargin="72" Justification="Left" CustomTabStops="" ListLevel="2" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" Color="#000000" BulletChar="·" BulletFont="Symbol" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="54" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="54" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="54" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="72" TrailingMargin="0" FirstLineMargin="72" Justification="Left" CustomTabStops="" ListLevel="2" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Color="#000000" BulletChar="·" BulletFont="Symbol" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="54" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text=" "&gt;
+        &lt;Style FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="54" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;BaseSpanStyle FontFamily="Calibri" FontSize="18" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#000000" /&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="117" TrailingMargin="0" FirstLineMargin="72" Justification="Left" CustomTabStops="" ListLevel="2" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" Color="#000000" BulletChar="·" BulletFont="Symbol" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="54" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;BaseSpanStyle FontFamily="Calibri" FontSize="18" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#000000" /&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6rijn1lxOz3.5ynLqTKH8nM" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="5">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletChar="·" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="You may be wondering exactly what is meant by coaching.  Perhaps it is easier to clarify by describing what coaching is not.&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Color="#000000" BulletChar="·" BulletFont="Symbol" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="54" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" Color="#000000" BulletChar="·" BulletFont="Symbol" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Coaching is not counseling."&gt;
+        &lt;Style FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="  A coach is not there to &amp;quot;fix&amp;quot; a broken student.  Though you may hear about personal problems, the role of the coach is to support and, if appropriate, encourage the student to get professional help from the Counseling Center.&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="54" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text=" "&gt;
+        &lt;Style FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="54" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" Color="#000000" BulletChar="·" BulletFont="Symbol" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Coaching is not advising."&gt;
+        &lt;Style FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="  You do not need to know college requirements nor what courses your student should take next semester.  Though students may want to discuss goals and classes, the role of the coach is to support and then encourage them to see an advisor to plan their academic future.&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="54" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text=" &amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="54" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" BulletChar="·" BulletFont="Symbol" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Coaching is not teaching.  "&gt;
+        &lt;Style FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="You do not need to be a content expert in order to coach.  Your students may come to you with academic questions, but your role is to support them and encourage them to speak with their teachers about academic concerns or perhaps encourage them to sign up for tutoring."&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6rijn1lxOz3.65cDKtkdZ8R" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="6">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="54" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" BulletChar="·" BulletFont="Symbol" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="What then is coaching?&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" BulletChar="·" BulletFont="Symbol" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="54" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" BulletChar="·" BulletFont="Symbol" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="The heart of Step UP is the coach/student relationship.  Coaches and students forge  close, trusting bonds.&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="54" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" BulletChar="·" BulletFont="Symbol" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="54" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" BulletChar="·" BulletFont="Symbol" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="The job of the coach is to listen closely without judging.  Think of yourself as a cheerleader, someone who is there to celebrate successes and help the students through difficult times.&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="54" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" BulletChar="·" BulletFont="Symbol" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="54" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" Color="#000000" BulletChar="·" BulletFont="Symbol" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="A good coach listens more than talks and asks powerful questions.  Questions that help students think more deeply about themselves.&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="54" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" Color="#000000" BulletChar="·" BulletFont="Symbol" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="54" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" Color="#000000" BulletChar="·" BulletFont="Symbol" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Coaches may refer students to resources that address student concerns or questions.&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="54" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" Color="#000000" BulletChar="·" BulletFont="Symbol" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="54" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" Color="#000000" BulletChar="·" BulletFont="Symbol" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Click next to see the video on the impact a Step UP coach has on a student. "&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6rijn1lxOz3.6I1HiB3jv4W" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="7">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Span Text="Now that we’ve shared a little about coaching, what do you think you need to be a coach? Select all that apply." /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6rijn1lxOz3.5qdifmOg5Wa" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="8">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="13" FirstLineMargin="0" LineSpacingRule="Single" LineSpacing="20"&gt;
+        &lt;ListStyle ListType="Bullet" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Step UP and coaching are likely new to you, and we want you to be comfortable. Here you will find the steps you need to take to begin coaching.  &amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" Spacing="0" LinkColor="#41474A" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="13" FirstLineMargin="0" LineSpacingRule="Single" LineSpacing="20"&gt;
+        &lt;ListStyle ListType="Bullet" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" Spacing="0" LinkColor="#41474A" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="13" FirstLineMargin="0" LineSpacingRule="Single" LineSpacing="20"&gt;
+        &lt;ListStyle ListType="Bullet" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Step 1: You will need to attend one training session before you begin coaching. "&gt;
+        &lt;Style FontIsBold="False" Spacing="0" LinkColor="#41474A" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" Monthly meetings are held to further your coach training, share experiences,  and meet other colleagues who are also coaching.  Though the meetings are not required, they are always helpful, and you are encouraged to attend when time permits.  Professional development credit is provided for training sessions."&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" Spacing="0" LinkColor="#41474A" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" Spacing="0" LinkColor="#41474A" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="13" FirstLineMargin="0" LineSpacingRule="Single" LineSpacing="20"&gt;
+        &lt;ListStyle ListType="Bullet" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" Spacing="0" LinkColor="#41474A" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="13" FirstLineMargin="0" LineSpacingRule="Single" LineSpacing="20"&gt;
+        &lt;ListStyle ListType="Bullet" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Step 2: "&gt;
+        &lt;Style FontIsBold="False" Spacing="0" LinkColor="#41474A" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="You are asked to set aside one hour per week to meet with your student in a place free of distractions.  Face-to-face meetings are the norm, but occasionally you may want to check in via a phone call or chat. :Careful data is kept so that we can clearly show the impact of Step UP.  To facilitate accurate data collection, coaches are asked to keep track of student attendance and to let the Director of Step UP know if  the student never attends or stops attending meetings&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" Spacing="0" LinkColor="#41474A" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="13" FirstLineMargin="0" LineSpacingRule="Single" LineSpacing="20"&gt;
+        &lt;ListStyle ListType="Bullet" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" Spacing="0" LinkColor="#41474A" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="13" FirstLineMargin="0" LineSpacingRule="Single" LineSpacing="20"&gt;
+        &lt;ListStyle ListType="Bullet" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Step 3: Accurate record keeping is essential for program success measurements.  You will need to complete and turn in your coaching log at the end of the semester.&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" Spacing="0" LinkColor="#41474A" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="13" FirstLineMargin="0" LineSpacingRule="Single" LineSpacing="20"&gt;
+        &lt;ListStyle ListType="Bullet" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" Spacing="0" LinkColor="#41474A" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" LineSpacingRule="Single" LineSpacing="20"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" Spacing="0" LinkColor="#41474A" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="13" FirstLineMargin="0" LineSpacingRule="Single" LineSpacing="20"&gt;
+        &lt;ListStyle ListType="Bullet" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" Spacing="0" LinkColor="#41474A" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" LineSpacingRule="Single" LineSpacing="20"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" Spacing="0" LinkColor="#41474A" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="13" FirstLineMargin="0" LineSpacingRule="Single" LineSpacing="20"&gt;
+        &lt;ListStyle ListType="Bullet" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" Spacing="0" LinkColor="#41474A" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="13" FirstLineMargin="0" LineSpacingRule="Single" LineSpacing="20"&gt;
+        &lt;ListStyle ListType="Bullet" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" Spacing="0" LinkColor="#41474A" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="13" FirstLineMargin="0" LineSpacingRule="Single" LineSpacing="20"&gt;
+        &lt;ListStyle ListType="Bullet" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6rijn1lxOz3.6Xqb0dbaihi" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="9">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="54" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" BulletChar="·" BulletFont="Symbol" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="The Step UP leadership team"&gt;
+        &lt;Style FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" coordinates the program.  They have been working together for a long time, and they know the program inside out.  If you have any concerns at all about your student, your role, or the program itself, contact a member of the leadership team.&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="54" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" BulletChar="·" BulletFont="Symbol" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="54" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" Color="#000000" BulletChar="·" BulletFont="Symbol" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Monthly Step UP meetings"&gt;
+        &lt;Style FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" provide a forum for asking questions and enhancing your coaching skills.  A different topic each month is chosen to address coaching issues. &amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="54" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" Color="#000000" BulletChar="·" BulletFont="Symbol" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="54" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" Color="#000000" BulletChar="·" BulletFont="Symbol" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Step UP has a robust Canvas site"&gt;
+        &lt;Style FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=".  Electronic copies of Step UP forms are placed there as well as copies of workshop presentations from years ago through current sessions.  Step UP training modules are also housed on the Canvas site.  Directions for using Canvas are in the Step UP manual.&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="54" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletChar="·" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text=" &amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="54" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Parentheses" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text=" The Step UP manual"&gt;
+        &lt;Style FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" is a great reference tool.  There you will find hard copies of Step UP forms, important dates and times for the semester, coaching tips, and an extensive list of student resources available at HCC.&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="54" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Parentheses" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="54" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" BulletChar="·" BulletFont="Symbol"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="As a Step UP coach, you will be joining colleagues"&gt;
+        &lt;Style FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" from all areas of the college.  It's a great opportunity to meet peers you wouldn't ordinarily interact with.  They are there to help you if you have questions, if you just want to chat or share experiences or brainstorm for new coaching strategies&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="54" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletChar="·" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text=" "&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6rijn1lxOz3.5oUhz7lIFXF" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="10">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Span Text="Now that you have a better understanding on what coaching is, what do you think an HCC student can expect from the Step UP program?" /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6rijn1lxOz3.65RlqDAh79f" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="11">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Color="#000000" BulletChar="·" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="You already have what it takes to be a good coach if you &amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="117" TrailingMargin="0" FirstLineMargin="72" Justification="Left" CustomTabStops="" ListLevel="2" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" Color="#000000" BulletChar="·" BulletFont="Symbol" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="care about students&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="117" TrailingMargin="0" FirstLineMargin="72" Justification="Left" CustomTabStops="" ListLevel="2" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" Color="#000000" BulletChar="·" BulletFont="Symbol" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="can listen without judging&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="117" TrailingMargin="0" FirstLineMargin="72" Justification="Left" CustomTabStops="" ListLevel="2" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" Color="#000000" BulletChar="·" BulletFont="Symbol" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="can ask questions that help students think about their lives, goals, and concerns&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="117" TrailingMargin="0" FirstLineMargin="72" Justification="Left" CustomTabStops="" ListLevel="2" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" Color="#000000" BulletChar="·" BulletFont="Symbol" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="want to make a difference in one student's life&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="117" TrailingMargin="0" FirstLineMargin="72" Justification="Left" CustomTabStops="" ListLevel="2" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" BulletChar="·" BulletFont="Symbol" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="can spare one hour a week to meet with a student&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="117" TrailingMargin="0" FirstLineMargin="72" Justification="Left" CustomTabStops="" ListLevel="2" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" BulletChar="·" BulletFont="Symbol" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="117" TrailingMargin="0" FirstLineMargin="72" Justification="Left" CustomTabStops="" ListLevel="2" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" BulletChar="·" BulletFont="Symbol" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Click next to get a taste of coaching. You will see how a coach initiates a session, listens without judgement and asks powerful questions. "&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6rijn1lxOz3.5njs0x3Iiqd" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="12">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="There’s so much we want to share with you about the impact that Step Up can make on the student experience at HCC.&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0.1" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Hopefully, this introduction has been informative, and you will want to join your colleagues by becoming a Step UP coach. "&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6rijn1lxOz3.5vvMxLtSGY3" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="13">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Span Text="Are you ready to show students they matter?&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Span Text="If so, please contact the Director of Step UP to sign up at stepup@howardcc.edu or call 443-518-4465." /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+    </slidetranscripts>
+  </transcript_data>
+  <glossary_data />
+</bwFrame>
